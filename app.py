@@ -1,5 +1,3 @@
-
-
 import React, { useState, useCallback, useEffect } from 'react';
 import { AppState, AppStep, Difficulty, Quiz, Course, LessonImage } from './types';
 import * as gemini from './services/geminiService';
