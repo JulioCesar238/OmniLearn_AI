@@ -51,7 +51,7 @@ except Exception:
 
 # Configuración del Modelo (Usando el Prompt definido)
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash-latest",
+    model_name="gemini-pro", # <--- ¡CAMBIO AQUÍ!
     system_instruction=SYSTEM_INSTRUCTION
 )
 
